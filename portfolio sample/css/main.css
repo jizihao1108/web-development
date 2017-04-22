@@ -1,0 +1,100 @@
+/*
+* {
+    border: 1px solid red !important;
+    margin:0px;
+    padding:0px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*/
+
+body {
+   font-family: 'Poiret One', cursive; 
+}
+
+
+.text-thick {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title-text {
+    font-size: 50px;
+}
+
+.logo {
+    margin-top: 10px;
+    max-height:90px;
+}
+
+.add-margin {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+@media screen and (max-width: 991px) {
+    .responsive-col {
+        width:50%;
+    }
+
+    .float-right {
+        float:right;
+    }
+
+    .float-left {
+        float:left;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .responsive-col {
+        width:300px;
+        margin-right:auto;
+        margin-left:auto;
+    }
+
+    .float-right {
+        float:none;
+    }
+
+    .move-center {
+        text-align:center;
+        font-size: 20px;
+    }
+
+    .fix-height {
+        height: 236px;
+        overflow: hidden;
+    }
+
+    .size-down {
+        font-size:30px;
+    }
+
+    .logo {
+        max-height:70px;
+        position:relative;
+        top:10px;
+    }
+
+    h3 {
+        font-size:16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size:20px;
+    }
+}
